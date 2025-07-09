@@ -1,4 +1,4 @@
-# ACCRELEU Project
+# ACCREU Project
 
 A comprehensive, reproducible suite of workflows for assessing flood exposure, land-use impacts, and crop-area, production, and revenue outcomes across multiple models, RCPs, and adaptation or mitigation strategies (snapshot years 2020 – 2050).
 
@@ -7,12 +7,12 @@ This repository comprises two independent but complementary modules. Each module
 ## Repository Structure
 
 ```
-ACCRELEU/
+ACCREU/
 ├── Flood/                  # Flood-Exposure & Land-Use Analysis (see Flood/README.md)
 │   ├── Flooded_area/       # Tabular and raster outputs of flooded fractions
 │   ├── loss_analysis/      # Production & revenue loss calculations and reports
 │   ├── grass_data_analysis/# Grass-feed gap assessment outputs
-│   └── R_scripts/    ACCRELEU Project
+│   └── R_scripts/    ACCREU Project
 
 A comprehensive, reproducible suite of workflows for assessing flood exposure, land-use impacts, and crop-area, production, and revenue outcomes across multiple models, RCPs, and adaptation or mitigation strategies (snapshot years 2020 – 2050).
 
@@ -20,7 +20,7 @@ This repository comprises two independent but complementary modules. Each module
 
 Repository Structure
 
-ACCRELEU/
+ACCREU/
 ├── Flood/                  # Flood-Exposure & Land-Use Analysis (see Flood/README.md)
 │   ├── Flooded_area/       # Tabular and raster outputs of flooded fractions
 │   ├── loss_analysis/      # Production & revenue loss calculations and reports
