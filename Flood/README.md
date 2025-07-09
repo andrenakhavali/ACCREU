@@ -16,39 +16,34 @@ This repository holds the complete, reproducible workflow used to
 
 ## Folder structure
 
-
+```text
 .
-├── Flooded_area/csv/                # Tabular outputs created by the scripts
-│   ├── *_flooded_detailed.csv     # Per‑polygon × LU × year metrics
-│   └── *_flooded_aggregated.csv   # Per‑polygon × LU‑group × year summaries
-│
-├── Flooded_area/raster/             # GeoTIFF stacks of flooded‑LU fractions
-│   └── *_allYears_floodedLuFrac.tif
-│
-├── Flooded_area/R_scripts/
-│   ├── 01\_batch\_process\_luc.R        # Flooded-LU CSVs
-│   ├── 02\_build\_raster\_stacks.R      # GeoTIFF stacks
-│   ├── 03\_generate\_plots.R           # Bar-plot PDFs
-│   ├── 04\_loss\_analysis.R            # Production & revenue losses
-│   └── 05\_grass\_data\_analysis.R      # Grass-yield / gap assessment│
-│
-├── Flooded_area/plot/               # Publication‑ready PDFs
-│   ├── <model>_<RCP>_plot.pdf     # Faceted by adaptation/mitigation
-│   └── <model>_ALL_RCPs_plot.pdf  # Grid of all RCPs × strategies
-│
-├── loss_analysis/              # Economic-loss workflow outputs
-│   ├── detailed\_losses_*.csv
-│   ├── aggregated\_losses_*.csv
-│   └── flood\_impact_*.pdf
-│
-├── grass_data_analysis/        # Grassland-gap workflow outputs
-│   ├── csv/
-│   │   └── <label>\_results.csv
-│   ├── plots/
-│   │   └── <label>\_analysis.pdf
-│   └── all\_scenarios\_combined.csv
-│
-└── README.md                    # You are here
+├── Flooded_area
+│   ├── csv                 # Tabular outputs created by the scripts
+│   │   ├── flooded_detailed.csv     # Per-polygon × LU × year metrics
+│   │   └── flooded_aggregated.csv   # Per-polygon × LU-group × year summaries
+│   ├── raster              # GeoTIFF stacks of flooded-LU fractions
+│   │   └── allYears_floodedLuFrac.tif
+│   ├── R_scripts           # Processing scripts
+│   │   ├── 01_batch_process_luc.R
+│   │   ├── 02_build_raster_stacks.R
+│   │   ├── 03_generate_plots.R
+│   │   ├── 04_loss_analysis.R
+│   │   └── 05_grass_data_analysis.R
+│   └── plot                # Publication-ready PDFs
+│       ├── <model>_<RCP>_plot.pdf     # Faceted by adaptation/mitigation
+│       └── <model>_ALL_RCPs_plot.pdf  # Grid of all RCPs × strategies
+├── loss_analysis           # Economic-loss workflow outputs
+│   ├── detailed_losses_*.csv
+│   ├── aggregated_losses_*.csv
+│   └── flood_impact_*.pdf
+├── grass_data_analysis     # Grassland-gap workflow outputs
+│   ├── csv
+│   │   └── <label>_results.csv
+│   ├── plots
+│   │   └── <label>_analysis.pdf
+│   └── all_scenarios_combined.csv
+└── README.md               # You are here
 
 ````
 
