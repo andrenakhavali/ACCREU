@@ -171,14 +171,18 @@ source("R_scripts/05_grass_data_analysis.R")
 | Economic units   | Prices in constant **2020 USD**   |
 
 ---
+## Acknowledgement
+
+This work received funding from the European Commission under the scope of the Assessing Climate Change Risk in Europe (ACCREU) project (grant agreement No: 101081358).
 
 ## Citation
 
 If this workflow or its outputs help your research, please cite:
 
-> **Nakhavali M.A., Greber G., Palazzo A., Wogerer N. (2025)**
-> *Flood-Exposure & Land-Use Analysis Workflow*.
+> **Nakhavali M.A., Greber G., ARBELAEZ-GAVIRIA J., Palazzo A., Wogerer N. (2025)**  
+> *Flood-Exposure & Land-Use Analysis Workflow*.  
 > DOI: *tbd*
+
 
 ```
 ```
