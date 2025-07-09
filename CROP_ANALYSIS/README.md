@@ -116,8 +116,8 @@ These panels help to spot:
 
 If this crop-analysis workflow aids your study, please cite:
 
-> **Nakhavali M.A., Greber G., Palazzo A., Wogerer N. (2025)**
-> *EU Crop-Area, Production & Revenue Dataset*.
+> **Nakhavali M.A., Greber G., ARBELAEZ-GAVIRIA J., Palazzo A., Wogerer N. (2025)**  
+> *EU Crop-Area, Production & Revenue Dataset*.  
 > DOI: *tbd*
 
 ```
