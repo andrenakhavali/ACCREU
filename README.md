@@ -57,3 +57,18 @@ Each module defines its own input paths and parameters at the top of its R scrip
 
 Each module defines its own input paths and parameters at the top of its R scripts—adjust these to suit your directory layout. For detailed instructions on running the workflows and interpreting outputs, please consult the `README.md` in each top-level module directory.
 
+
+## Acknowledgement
+
+This work received funding from the European Commission under the scope of the Assessing Climate Change Risk in Europe (ACCREU) project (grant agreement No: 101081358).
+
+## Citation
+
+If this workflow or its outputs help your research, please cite:
+
+> **Nakhavali M.A., Greber G., ARBELAEZ-GAVIRIA J., Palazzo A., Wogerer N. (2025)**  
+> *EU Crop-Area, Production & Revenue Dataset*.  
+> DOI: *tbd*
+
+
+
