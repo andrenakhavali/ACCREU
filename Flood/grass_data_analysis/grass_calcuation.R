@@ -59,17 +59,12 @@ process_scenario <- function(dfile) {
       grass_yield = GRAS_YLD
     )
   
-  # Merge and calculate metrics (EXACT EQUATIONS FROM YOUR IMAGE)
+  # Merge and calculate metrics 
   final_data <- flood_data %>%
     inner_join(grass_data, by = c("simuid", "year", "grass_class")) %>%
     mutate(
-      # Equation 1: Total Grass Production (1000 t dm)
-      total_grass_prod = (lu_area_km2_polygon * (grass_yield / 0.01)) / 1000,
-      
-      # Equation 2: Lost Production Due to SLR (1000 t dm)
+      total_grass_prod = (lu_area_km2_polygon * (grass_yield / 0.01)) / 1000,  
       lost_prod_slr = (flooded_area_km2_by_lu * (grass_yield / 0.01)) / 1000,
-      
-      # Equation 3: Production Gap at LUID (1000 t dm)
       production_gap = grass_requirement - (total_grass_prod - lost_prod_slr),
       
       # Add scenario identifiers
