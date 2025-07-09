@@ -67,7 +67,7 @@ This work received funding from the European Commission under the scope of the A
 If this workflow or its outputs help your research, please cite:
 
 > **Nakhavali M.A., Greber G., ARBELAEZ-GAVIRIA J., Palazzo A., Wogerer N. (2025)**  
-> *EU Crop-Area, Production & Revenue Dataset*.  
+> *ACCREU Integrated Flood Exposure, Land-Use Impact, Crop & Grassland data*.  
 > DOI: *tbd*
 
 
