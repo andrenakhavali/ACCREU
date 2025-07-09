@@ -61,9 +61,9 @@ Set‐and-forget parameters are defined at the top of the script:
 
 | Variable      | Default                                                          | Meaning                              |
 | ------------- | ---------------------------------------------------------------- | ------------------------------------ |
-| `dir_results` | `H:/ACCRELEU/flood/results_v04/`                                 | Location of `*.RData` scenario files |
+| `dir_results` | `H:/ACCREU/flood/results_v04/`                                 | Location of `*.RData` scenario files |
 | `dir_price`   | `P:/bnr/.../GLOBIOM_PRICE_YIELD_ACCREU.Rdata`                    | Price / yield / MCI lookup           |
-| `luc_id_shp`  | `H:/ACCRELEU/flood/SimU_CR_LUID/SimU_area_dissolved_CR_LUID.shp` | Polygon grid with `SimUID`           |
+| `luc_id_shp`  | `H:/ACCREU/flood/SimU_CR_LUID/SimU_area_dissolved_CR_LUID.shp` | Polygon grid with `SimUID`           |
 | `years`       | `c(2020,2030,2040,2050)`                                         | Snapshot years to keep               |
 
 Change these paths if your directory layout differs.
