@@ -181,7 +181,7 @@ If this workflow or its outputs help your research, please cite:
 
 > **Nakhavali M.A., Greber G., ARBELAEZ-GAVIRIA J., Palazzo A., Wogerer N. (2025)**  
 > *Flood-Exposure & Land-Use Analysis Workflow*.  
-> DOI: *tbd*
+>  DOI: 10.5281/zenodo.15878951
 
 
 ```
