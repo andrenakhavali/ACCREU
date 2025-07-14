@@ -68,7 +68,7 @@ If this workflow or its outputs help your research, please cite:
 
 > **Nakhavali M.A., Greber G., ARBELAEZ-GAVIRIA J., Palazzo A., Wogerer N. (2025)**  
 > *ACCREU Integrated Flood Exposure, Land-Use Impact, Crop & Grassland data*.  
-> DOI: *tbd*
+> DOI: 10.5281/zenodo.15878951
 
 
 
